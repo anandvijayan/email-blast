@@ -1,0 +1,28 @@
+EmailBlast:
+    Recepients:
+        - Name: Mike Hayden
+          Email: mikehayden5354@gmail.com
+        - Name: Shirley Yovino
+          Email: yoviss2@hotmail.com
+        - Name: Eileen Thomas
+          Email: edt123@sbcglobal.net
+        - Name: Marty Varela
+          Email: martyvarela@me.com
+    Message:
+        SalutationPrefix: Dear
+        MessageSubject: 'Please Confirm! District 2 Gavel Club area contest'
+        MessageTone: Make the tone more Formal in first person, retain line breaks, exclude the salutation and signature in the response for the content
+        MessageContent: "The District 2 Gavel clubs are having an area contest and are in need of judges. 
+                         There are 2 sets of speaking and evaluation contests based on participants' age. 
+                         If you cannot be there for the whole contest, you have an option to judge just 1 set of contests. Food and drinks shall be served.\n\n
+                         10:00 am - 2:00 pm, Saturday 7th June 2025\n
+                         Park Ridge Church\n
+                         3805 Malty Rd, Bothell, WA 98012\n\n
+                         Please let me know your availability."
+        Signature: "---\n
+                    Anand Vijayan (alias Andy)\n
+                    Youth Leadership Chair\n
+                    #: PN-06645899\n
+                    anand.vijayachandran@gmail.com\n
+                    602-738-6626\n
+                    https://d2tm.org/youth-programs-gavel-clubs/"
