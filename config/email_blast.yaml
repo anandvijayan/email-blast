@@ -1,28 +1,30 @@
 EmailBlast:
     Recepients:
-        - Name: Mike Hayden
-          Email: mikehayden5354@gmail.com
-        - Name: Shirley Yovino
-          Email: yoviss2@hotmail.com
-        - Name: Eileen Thomas
-          Email: edt123@sbcglobal.net
-        - Name: Marty Varela
-          Email: martyvarela@me.com
+        - Name: Anand Vijayan
+          Email: anand_vijayan@yahoo.com
     Message:
         SalutationPrefix: Dear
-        MessageSubject: 'Please Confirm! District 2 Gavel Club area contest'
-        MessageTone: Make the tone more Formal in first person, retain line breaks, exclude the salutation and signature in the response for the content
-        MessageContent: "The District 2 Gavel clubs are having an area contest and are in need of judges. 
-                         There are 2 sets of speaking and evaluation contests based on participants' age. 
-                         If you cannot be there for the whole contest, you have an option to judge just 1 set of contests. Food and drinks shall be served.\n\n
-                         10:00 am - 2:00 pm, Saturday 7th June 2025\n
-                         Park Ridge Church\n
-                         3805 Malty Rd, Bothell, WA 98012\n\n
-                         Please let me know your availability."
+        MessageSubject: 'You are invited to an Open House!'
+        MessageTone: Make it a formal invite for a toastmasters meeting with the mysterious theme, retain line breaks, exclude the salutation and signature in a plain text response (no mardown) for the content
+        MessageContent: "The Issaquah Highlands Toastmasters Club is having an open house and you are invited. 
+                         The theme of the meeting is the volcanic erruption on 18th May 1980 of Loowit, the smoking mountain (Mt St Helens). 
+                         If you have been putting off sharpening your communication and speaking skills, this is a great time to start. 
+                         Food and drinks shall be served.\n\n
+                         5:45 pm - 7:00 pm, Monday 19th May 2025\n
+                         Issaquah Highlands Fire Station (#73) Meeting Room\n
+                         1280 NE Park Dr,\n
+                         Issaquah, WA 98029\n\n
+                         Please RSVP by Friday, 17th May 2025. 
+                         You could also email the club president Linda Eastlick at vpm-1231280@toastmastersclubs.org if you have any questions. \n\n
+                         Look forward to seeing you at the meeting on Monday."
+        Attachments: 
+            - ./attachments/ihtm-open-house-flier.pdf
+            - ./attachments/loowit.jpeg
         Signature: "---\n
                     Anand Vijayan (alias Andy)\n
-                    Youth Leadership Chair\n
+                    Club Coach\n
                     #: PN-06645899\n
+                    1231280 / Issaquah Highlands Toastmasters Club\n
                     anand.vijayachandran@gmail.com\n
                     602-738-6626\n
-                    https://d2tm.org/youth-programs-gavel-clubs/"
+                    https://ihtm.toastmastersclubs.org/"

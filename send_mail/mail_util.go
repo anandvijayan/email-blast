@@ -20,7 +20,9 @@ func SendBlast(message_content string) {
 		m.SetHeader("To", email_to)
 		m.SetHeader("Subject", email_subject)
 		m.SetBody("text/plain", email_body)
-		//m.Attach("../reports/dcp_report.png")
+		for _, attachment := range notify.GetAttachments() {
+			m.Attach(attachment)
+		}
 		d := gomail.NewDialer("smtp.gmail.com", 587, email_from, email_password)
 
 		if err := d.DialAndSend(m); err != nil {

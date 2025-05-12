@@ -24,11 +24,12 @@ type EmailBlastConfig struct {
 	EmailBlast struct {
 		Recipients []Recipient `yaml:"Recepients"`
 		Message    struct {
-			SalutationPrefix string `yaml:"SalutationPrefix"`
-			MessageTone      string `yaml:"MessageTone"`
-			MessageSubject   string `yaml:"MessageSubject"`
-			MessageContent   string `yaml:"MessageContent"`
-			Signature        string `yaml:"Signature"`
+			SalutationPrefix string   `yaml:"SalutationPrefix"`
+			MessageTone      string   `yaml:"MessageTone"`
+			MessageSubject   string   `yaml:"MessageSubject"`
+			MessageContent   string   `yaml:"MessageContent"`
+			Attachments      []string `yaml:"Attachments"`
+			Signature        string   `yaml:"Signature"`
 		} `yaml:"Message"`
 	} `yaml:"EmailBlast"`
 }
@@ -80,6 +81,10 @@ func GetMessageContentEnhanced() string {
 	messageContent := emailBlastConfig.EmailBlast.Message.MessageContent
 	enhancedMessage := util.Chat(fmt.Sprintf("%s %s", messageTone, messageContent))
 	return enhancedMessage
+}
+
+func GetAttachments() []string {
+	return emailBlastConfig.EmailBlast.Message.Attachments
 }
 
 func GetSignature() string {
