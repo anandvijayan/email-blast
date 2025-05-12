@@ -1,21 +1,16 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Send Email Blast
+name: Test Send Email Blast
 
 # Controls when the workflow will run
 on:
     workflow_dispatch: # manual trigger
-    workflow_run:
-      workflows: [Test send email blast]
-      types:
-        - completed
-      branches:
-        - main
+    push:
+      branches: [ "main" ]
 env:
   OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
   EMAIL_ID: ${{ vars.EMAIL_ID }}
   EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-  SEND_NOTIFICATION: ${{ vars.SEND_NOTIFICATION }}
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -31,5 +26,5 @@ jobs:
       - name: Install tools
         run: make install-tools
 
-      - name: Send the notification email
+      - name: Test Send the notification email
         run: make -e test

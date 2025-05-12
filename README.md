@@ -1,5 +1,5 @@
-# Toastmasters International Club DCP Status Checker
-Check the Club DCP status page to generate the current DCP report in Yaml and image formats.
+# Personalized email blast utility
+Create a personalized email and send a blast to all recipients specified in the config file.
 
 ## Install tools
 Install go lang and nodejs
@@ -11,10 +11,11 @@ Format the code
 
 `make format`
 
+
 ## Email Config
 Update the email config with the details of recipients and email message
 
-![dcp_report.yaml](./config/email_blast.yaml)
+[email_blast.yaml](./config/email_blast.yaml)
 
 ```
 EmailBlast:
@@ -42,17 +43,21 @@ EmailBlast:
 
 ```
 
+## Environment Variables
+Set environment variables
 
-Capture the Club DCP report screenthot png
+```
+export OPENAI_API_KEY=<the openai api key for enhanced message>
+export EMAIL_ID=<email id of user who is sending the blast message>
+export EMAIL_PASSWORD=<password of the user sending the email>
+export ENHANCE_MESSAGE=<Yes/No flag indicating if the message needs to be enhanced with AI>
+```
 
-`make generate-screenshot`
+## Test and Send Email Notifications
+Test the enhanced message generation
 
-![Club DCP Report](./reports/dcp_report.png)
+`make test`
 
-Generate Club DCP report in Yaml and capture the Club DCP report screenthot
-
-`make generate-all`
-
-Use the generated Yaml report and summarize the achievements using Chat GPT API. Send an announcement message via Email with the summary and image captured.
+Use [email_blast.yaml](./config/email_blast.yaml) config and send personalized email notifications.
 
 `make send-notification`

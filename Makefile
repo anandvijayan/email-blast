@@ -2,7 +2,6 @@ SHELL := /bin/bash -o pipefail
 
 APP_NAME = email-blast
 PACKAGE_NAME = $(APP_NAME)
-SEND_NOTIFICATION?=send_mail
 
 .PHONY: test test-* format build
 
