@@ -1,28 +1,116 @@
 EmailBlast:
     Recepients:
-        - Name: Mike Hayden
-          Email: mikehayden5354@gmail.com
-        - Name: Shirley Yovino
-          Email: yoviss2@hotmail.com
-        - Name: Eileen Thomas
-          Email: edt123@sbcglobal.net
-        - Name: Marty Varela
-          Email: martyvarela@me.com
+        # - Name: Aaron Reinke 
+        #   Email: Aaron.reinke@stanley1913.com
+        # - Name: Alexa Medhus 
+        #   Email: toastmaster.medhus@gmail.com
+        # - Name: Anju Pandey 
+        #   Email: anju.k.pandey@gmail.com
+        # - Name: Abdimallik Aar 
+        #   Email: abdimallik@yahoo.com
+        # - Name: Shirley Rullan 
+        #   Email: rullan.sm@gmail.com
+        # - Name: Snagari Schools 
+        #   Email: snagari.schools@gmail.com
+        # - Name: Abdimallik Aar 
+        #   Email: abdimallik@yahoo.com
+        # - Name: Yilan Xiongqiu 
+        #   Email: omoyo0906@qq.com
+        # - Name: Larry Liang 
+        #   Email: lliang2@dal.ca
+        # - Name: Kayla Hubbard 
+        #   Email: kahubbard97@gmail.com
+        # - Name: Peter Yoshikawa 
+        #   Email: peteryoshikawa8@gmail.com
+        # - Name: Rammohan Prattipati 
+        #   Email: rammohanrp@yahoo.com
+        # - Name: Sirisha Konyala 
+        #   Email: sirisha.konyala@gmail.com
+        # - Name: Weldon MacDougall 
+        #   Email: weldon.macdougall@me.com
+        # - Name: Amber Sun 
+        #   Email: amber.b.sun@gmail.com
+        # - Name: Abhishek Saini 
+        #   Email: abhiinjan@gmail.com
+        # - Name: Weldon MacDougall 
+        #   Email: weldon.macdougall@me.com
+        # - Name: Hamzah Musazay 
+        #   Email: hamzah.musazay@gmail.com
+        # - Name: Rammohan Prattipati 
+        #   Email: rammohanrp@yahoo.com
+        # - Name: Nairim Indriago 
+        #   Email: nairimir@gmail.com
+        # - Name: Shuo Feng 
+        #   Email: whatever2kevin@gmail.com
+        # - Name: Sireesha Buddhavarapu 
+        #   Email: smachiraju09@gmail.com
+        # - Name: Paola Ordonez 
+        #   Email: paolaord@gmail.com
+        # - Name: John Payne 
+        #   Email: jpayne30@yahoo.com
+        # - Name: Rashmi Vinod 
+        #   Email: rashmi.kn@gmail.com
+        # - Name: Deepti Wadhwa 
+        #   Email: deeptiwadhwa.2006@gmail.com
+        # - Name: Kiranmai Kunta 
+        #   Email: kuntakiranmai@gmail.com
+        # - Name: Inaya Rizvi 
+        #   Email: rizin22@outlook.com
+        # - Name: Meenakshi Balasubramaniyam 
+        #   Email: meenasudip@gmail.com
+        # - Name: Suresh Sabapathi 
+        #   Email: sureshs83@gmail.com
+        # - Name: Emily Soderberg 
+        #   Email: emilys@betterbuilders.com
+        # - Name: Derrick Leiranmcdermed 
+        #   Email: derrickmcdermed@gmail.com
+        # - Name: Tresa Brazier 
+        #   Email: tresabrazier@gmail.com
+        # - Name: Saira Khan 
+        #   Email: sairaholm@gmail.com
+        # - Name: Mallory Mihara 
+        #   Email: mallorymihara@gmail.com
+        # - Name: Faith Thao 
+        #   Email: fthao23@icloud.com
+        # - Name: KaroJae Bryan 
+        #   Email: karojae@gmail.com
+        # - Name: Kimberly Waite 
+        #   Email: kimlwaite@yahoo.com
+        # - Name: Babita Chauhan 
+        #   Email: babita.iccorp@gmail.com
+        # - Name: Kirsten Patterson
+        #   Email: kirstenpatterson@outlook.com
+        # - Name: Kirti Jaiswal
+        #   Email: kirti.jaiz@gmail.com
+        # - Name: Aswani Prabhoo
+        #   Email: aswani.prabhoo@gmail.com
+        - Name: Swapnil Patel
+          Email: swppatel@gmail.com
+        - Name: Arti Clement
+          Email: articlement@gmail.com
     Message:
         SalutationPrefix: Dear
-        MessageSubject: 'Please Confirm! District 2 Gavel Club area contest'
-        MessageTone: Make the tone more Formal in first person, retain line breaks, exclude the salutation and signature in the response for the content
-        MessageContent: "The District 2 Gavel clubs are having an area contest and are in need of judges. 
-                         There are 2 sets of speaking and evaluation contests based on participants' age. 
-                         If you cannot be there for the whole contest, you have an option to judge just 1 set of contests. Food and drinks shall be served.\n\n
-                         10:00 am - 2:00 pm, Saturday 7th June 2025\n
-                         Park Ridge Church\n
-                         3805 Malty Rd, Bothell, WA 98012\n\n
-                         Please let me know your availability."
+        MessageSubject: 'You are invited to an Open House!'
+        MessageTone: Make it a formal invite for a toastmasters meeting with the mysterious theme, retain line breaks, exclude the salutation and signature in a plain text response (no mardown) for the content
+        MessageContent: "The Issaquah Highlands Toastmasters Club is having an open house and you are invited. 
+                         The theme of the meeting is the volcanic erruption on 18th May 1980 of Loowit, the smoking mountain (Mt St Helens). 
+                         If you have been putting off sharpening your communication and speaking skills, this is a great time to start. 
+                         Food and drinks shall be served.\n\n
+                         5:45 pm - 7:00 pm, Monday 19th May 2025\n
+                         Issaquah Highlands Fire Station (#73) Meeting Room\n
+                         1280 NE Park Dr,\n
+                         Issaquah, WA 98029\n\n
+                         Please RSVP by Friday, 17th May 2025. 
+                         You could also email the club president Linda Eastlick at vpm-1231280@toastmastersclubs.org if you have any questions. \n\n
+                         Look forward to seeing you at the meeting on Monday."
+        Attachments: 
+            - ./attachments/ihtm-open-house-flier.pdf
+            - ./attachments/loowit.jpeg
         Signature: "---\n
                     Anand Vijayan (alias Andy)\n
-                    Youth Leadership Chair\n
+                    Club Coach\n
                     #: PN-06645899\n
+                    1231280 / Issaquah Highlands Toastmasters Club\n
                     anand.vijayachandran@gmail.com\n
                     602-738-6626\n
-                    https://d2tm.org/youth-programs-gavel-clubs/"
+                    https://ihtm.toastmastersclubs.org/"
