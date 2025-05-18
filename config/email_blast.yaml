@@ -6,15 +6,15 @@ EmailBlast:
         SalutationPrefix: Dear
         MessageSubject: 'You are invited to an Open House!'
         MessageTone: Make it a formal invite for a toastmasters meeting with the mysterious theme, retain line breaks, exclude the salutation and signature in a plain text response (no mardown) for the content
-        MessageContent: "The Issaquah Highlands Toastmasters Club is having an open house and you are invited. 
+        MessageContent: "Your esteemed presense is greatly awaited for the open house at The Issaquah Highlands Toastmasters Club. 
                          The theme of the meeting is the volcanic erruption on 18th May 1980 of Loowit, the smoking mountain (Mt St Helens). 
                          If you have been putting off sharpening your communication and speaking skills, this is a great time to start. 
                          Food and drinks shall be served.\n\n
                          5:45 pm - 7:00 pm, Monday 19th May 2025\n
                          Issaquah Highlands Fire Station (#73) Meeting Room\n
                          1280 NE Park Dr,\n
-                         Issaquah, WA 98029\n\n
-                         Please RSVP by Friday, 17th May 2025. 
+                         Issaquah, WA 98029\n\n 
+                         The club is almost distinguished and only in need of three more members. https://dashboards.toastmasters.org/ClubReport.aspx?id=1231280
                          You could also email the club president Linda Eastlick at vpm-1231280@toastmastersclubs.org if you have any questions. \n\n
                          Look forward to seeing you at the meeting on Monday."
         Attachments: 
