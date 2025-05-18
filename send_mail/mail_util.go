@@ -2,6 +2,7 @@ package mail
 
 import (
 	"os"
+	"time"
 
 	notify "github.com/anandvijayan/email-blast/util/notify"
 	"gopkg.in/gomail.v2"
@@ -13,6 +14,7 @@ func SendBlast(message_content string) {
 	email_user := os.Getenv("EMAIL_USER")
 	email_password := os.Getenv("EMAIL_PASSWORD")
 	for _, recipient := range notify.GetRecipients() {
+		time.Sleep(2 * time.Second)
 		println("Emailing to ", recipient.Name+"<"+recipient.Email+">")
 		email_to := recipient.Email
 		email_subject := notify.GetSubject()
