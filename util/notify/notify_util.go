@@ -80,6 +80,9 @@ func GetMessageContentEnhanced() string {
 	messageTone := emailBlastConfig.EmailBlast.Message.MessageTone
 	messageContent := emailBlastConfig.EmailBlast.Message.MessageContent
 	enhancedMessage := util.Chat(fmt.Sprintf("%s %s", messageTone, messageContent))
+	enhancedMessage = strings.ReplaceAll(enhancedMessage, "```html", "")
+	enhancedMessage = strings.ReplaceAll(enhancedMessage, "```", "")
+
 	return enhancedMessage
 }
 

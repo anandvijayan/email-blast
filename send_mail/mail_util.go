@@ -22,7 +22,7 @@ func SendBlast(message_content string) {
 		m.SetHeader("From", email_from)
 		m.SetHeader("To", email_to)
 		m.SetHeader("Subject", email_subject)
-		m.SetBody("text/plain", email_body)
+		m.SetBody("text/html", email_body)
 		for _, attachment := range notify.GetAttachments() {
 			m.Attach(attachment)
 		}
