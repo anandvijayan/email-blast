@@ -1,30 +1,77 @@
 EmailBlast:
     Recepients:
-        - Name: Anand Vijayan
-          Email: anand_vijayan@yahoo.com
+        # - Name: Geoffrey
+        #   Email: geoff.peters@gmail.com
+        # - Name: Joshua
+        #   Email: joshua.whiting@sap.com
+        # - Name: Veera Vijayakumar
+        #   Email: tvveera@icloud.com
+        # - Name: Zivan
+        #   Email: zivan.nesic@sap.com
+        # - Name: Kumar
+        #   Email: kumark.d2tm@outlook.com
+        # - Name: Rachel
+        #   Email: lirachu@amazon.com
+        # - Name: Hugh
+        #   Email: hughba@amazon.com
+        # - Name: Jenn
+        #   Email: jennstov@amazon.com
+        # - Name: Abhishek
+        #   Email: atabhi@amazon.com
+        # - Name: Charu
+        #   Email: charugu@amazon.com
+        - Name: Katie Munoz
+          Email: katie@serioustohilarious.com
+        # - Name: Kelly Fallucca
+        #   Email: k@kellyafallucca.com
+        # - Name: Hailey
+        #   Email: h.phillips@pokemon.com
+        # - Name: Cody
+        #   Email: c.worden@pokemon.com
+        # - Name: Logan
+        #   Email: l.eriksen@pokemon.com
+        # - Name: Anastasiia
+        #   Email: a.kornatska@pokemon.com
+        # - Name: Roxanne Spring
+        #   Email: springdtm@gmail.com
+        # - Name: Sonja
+        #   Email: sonja.luoto@live.fi
+        # - Name: Marty
+        #   Email: martyvarela@me.com
+        # - Name: Peter
+        #   Email: petehorne71@yahoo.com
+        # - Name: Penny
+        #   Email: 4pennyarneson@gmail.com
+        # - Name: Luther
+        #   Email: lutherwalker2023@gmail.com
+        # - Name: Tia Hoang
+        #   Email: tiahoang111@gmail.com
     Message:
         SalutationPrefix: Dear
-        MessageSubject: 'You are invited to an Open House!'
-        MessageTone: Make it a formal invite for a toastmasters meeting with the mysterious theme, retain line breaks, exclude the salutation and signature in a plain text response (no mardown) for the content
-        MessageContent: "Your esteemed presense is greatly awaited for the open house at The Issaquah Highlands Toastmasters Club. 
-                         The theme of the meeting is the volcanic erruption on 18th May 1980 of Loowit, the smoking mountain (Mt St Helens). 
-                         If you have been putting off sharpening your communication and speaking skills, this is a great time to start. 
-                         Food and drinks shall be served.\n\n
-                         5:45 pm - 7:00 pm, Monday 19th May 2025\n
-                         Issaquah Highlands Fire Station (#73) Meeting Room\n
-                         1280 NE Park Dr,\n
-                         Issaquah, WA 98029\n\n 
-                         The club is almost distinguished and only in need of three more members. https://dashboards.toastmasters.org/ClubReport.aspx?id=1231280
-                         You could also email the club president Linda Eastlick at vpm-1231280@toastmastersclubs.org if you have any questions. \n\n
-                         Look forward to seeing you at the meeting on Monday."
+        MessageSubject: 'Happy Holidays from your D2tm AD!'
+        MessageTone: Create succinct professional message. Exclude the salutation and signature in a html snippet (do not use markdown formating) response without the html, head or body tags.
+        MessageContent: "I wanted to personally express my deepest gratitude to you with a virtual holiday card for your dedicated service. 
+                         We are half way through and things are looking good. There are many exciting events to look forward to: 
+                         1. Completing the officer training (more details on the D2tm calendar https://d2tm.org/calendar/month/2026-01/): 
+                            - Wed, 6:00 pm to 7:00 pm, 1/14/2026 (Online)
+                            - Wed, 12:00 pm to 1:00 pm 1/21/2026 (Online)
+                            - Wed, 6:00 pm to 7:15 pm, 1/28/2026 (Online)
+                         2. Conducting your speech contest in Jan, with upto two winners or nomations each for 
+                         the international and humorous speech contests going forward to the area contest, 
+                         3. Representating and promoting your program by participating in the area contest in Feb (more details on D2tm calendar https://d2tm.org/event/combined-area-42-and-43-international-and-humorous-speech-contests/)
+                            - Sat, 10:00 am to 2:00 pm, 2/14/2026 (In-person)
+                              Sammamish Hills Lutheran Church,
+                              Sanctuary Hall,
+                              22818 SE 8th Street,
+                              Sammamish, WA 98074 
+                         4. Planning to conduct membership drives in Feb and Mar.
+                         If you have a question or concern, please let me know."
         Attachments: 
-            - ./attachments/ihtm-open-house-flier.pdf
-            - ./attachments/loowit.jpeg
-        Signature: "---\n
-                    Anand Vijayan (alias Andy)\n
-                    Club Coach\n
-                    #: PN-06645899\n
-                    1231280 / Issaquah Highlands Toastmasters Club\n
-                    anand.vijayachandran@gmail.com\n
-                    602-738-6626\n
-                    https://ihtm.toastmastersclubs.org/"
+            - ./attachments/2025_Happy_Holidays_AD.jpg
+        Signature: "Best Regards,<br>
+                    Anand Vijayan (alias Andy)<br>
+                    Area 43 Director, Division D, District 2<br>
+                    #: PN-06645899<br>
+                    anand.vijayachandran@gmail.com<br>
+                    602-738-6626<br>
+                    https://d2tm.org/"
